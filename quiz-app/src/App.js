@@ -9,7 +9,7 @@ import NumberInput from './components/NumberInput';
 import ToggleSwitch from './components/ToggleSwitch';
 import Checkbox from './components/Checkbox';
 import RadioButton from './components/RadioButton';
-import Accordion from './components/Accordion';
+
 
 function App() {
   const handleClick = () => {
@@ -91,7 +91,7 @@ function App() {
         
       </div>
       <div>
-      <h2>Select an option:</h2>
+      <h3>Select an option:</h3>
         <form>
           <RadioButton
             name="radioGroup"
@@ -109,14 +109,7 @@ function App() {
           />
         </form>
       </div>
-      <div>
-        <Accordion title="Section 1">
-          <p>Content for section 1</p>
-        </Accordion>
-        <Accordion title="Section 2">
-          <p>Content for section 2</p>
-        </Accordion>
-      </div>
+      
     </div>
   )
   
